@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 162, 255);
+    overflow: hidden;
+}
+.container{
+    display: inline-block;
+}
+.page{
+    width: 900px;
+    height: 600px;
+    margin: 11rem 33rem;
+    box-shadow: -7px -7px 20px rgb(0, 38, 255);
+}
+
+#input-button{
+    font-size: 3vh;
+    margin: 1rem;
+    border: none;
+    background-color: rgb(0, 162, 255);
+}
+#input-button:hover{
+    color: blue;
+    font-size: 3.2vh;
+    transition: all 0.2s;
+}
+.privet_policiy{
+    margin: 2rem 0rem;
+}
+.accept{
+    font-size: 2.5vh;
+    float: right;
+    margin: 1rem 2rem;
+}
+.submit{
+    margin: 8rem 50rem;
+    
+}
+button{
+    width: 120px;
+    background-color: rgb(0, 162, 255);
+    border: none;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    box-shadow: -3px -2px rgb(0, 148, 275);
+    font-size: 2vh;
+    cursor: pointer;
+    margin: 0rem -1.2rem;
+}
+button:hover{
+    background-color: rgb(0, 150, 265);
+    font-size: 2.1vh;
+    transition: 0.2s;
+}
